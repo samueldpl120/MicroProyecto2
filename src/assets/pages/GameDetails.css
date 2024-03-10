@@ -1,0 +1,20 @@
+#titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: bold;
+    padding: 5%;
+    background-color: rgb(167, 123, 131);
+}
+.details{
+    display: flex;
+    width: 100%;
+    height: auto;
+    gap: 10%;
+    margin: 5%;
+}
+.image{
+    border-radius: 10px;
+    width: 50%;
+}
