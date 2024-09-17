@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
-import { auth, db } from "../firebase-config";
+import { auth, db } from "./firebase-config";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 import { collection, addDoc, getDocs } from "firebase/firestore";
-
+import "../src/styles/RegisterForm.css"
 
 function RegisterForm() {
   const [juegoElegido, setjuegoElegido] = useState("");

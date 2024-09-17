@@ -1,0 +1,43 @@
+/* Reutiliza estilos para el formulario y elementos comunes del LoginPage.css */
+
+.register-form {
+    width: 100%;
+    max-width: 360px; /* Puedes ajustar el ancho según necesites */
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* Fondo blanco para resaltar el formulario */
+  }
+  
+  .register-form .title {
+    color: #2a6628; /* Un verde oscuro para el título, igual que en LoginPage.css */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .register-form input,
+  .register-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px; /* Espacio entre los campos */
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Bordes redondeados para los inputs y select */
+  }
+  
+  .register-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #44a048; /* Un verde vivo para el botón de registro */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px; /* Espacio antes del botón */
+  }
+  
+  .register-form .error {
+    color: #ff3860; /* Un color que indica error, igual que en LoginPage.css */
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
