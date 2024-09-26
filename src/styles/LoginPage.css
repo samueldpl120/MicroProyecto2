@@ -1,0 +1,75 @@
+/* Establece un fondo general para la página o el contenedor del formulario */
+body {
+  background-color: #f4f7f6; /* Un tono suave de fondo, fácil para los ojos */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estiliza el formulario de inicio de sesión */
+.user-login-form {
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff; /* Fondo blanco para resaltar el formulario */
+}
+
+.login-title {
+  color: #2a6628; /* Un verde oscuro para el título */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-input-group {
+  margin-bottom: 15px;
+}
+
+.form-input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #4a4a4a; /* Un color neutro para el texto */
+}
+
+.form-input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc; /* Un borde sutil */
+  border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Estilos para los botones */
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.action-btn {
+  background-color: #44a048; /* Un verde vivo para el botón de acción principal */
+  color: white;
+}
+
+.google-signin-btn {
+  background-color: #db4437; /* Un color distintivo para el botón de Google */
+  color: white;
+}
+
+/* Mensaje de error */
+.login-error-msg {
+  color: #ff3860; /* Un color que indica error */
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Enlaces */
+a {
+  color: #44a048; /* Mantén el tono verde para los enlaces */
+  text-decoration: none; /* Opcional: elimina el subrayado de los enlaces */
+}
+
+a:hover {
+  text-decoration: underline; /* Opcional: subraya los enlaces al pasar el ratón */
+}

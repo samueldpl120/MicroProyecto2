@@ -1,7 +1,7 @@
 import LoginPage from "./LoginPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LandingPage from "./LandingPage";
-import RegisterForm from "./components/RegisterForm";
+import RegisterForm from "./RegisterForm";
 
 function App() {
   return (
